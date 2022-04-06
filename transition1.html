@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition1</title>
+      <style>
+              body{
+                  background-color: rgb(24, 179, 24);
+                  
+              }
+              #box1{
+                  display: flex;
+                  height: 200px;
+                  width: 200px;
+                  display: flex;
+                  margin-left:;
+                  justify-content: center;
+                  align-items: center;
+                  transition-duration: 1;
+                  border: solid blue;
+                  background-color: azure;
+                  padding: 5px;
+                  transition-property: background-color;
+                  
+                  
+              }
+              #box1:hover{
+                  background-color: red;
+              }
+              #box2{
+                  display: flex;
+                  height: 200px;
+                  width: 200px;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;                 
+                  border: solid red;
+                  background-color:rgb(163, 130, 13);
+                  margin-left: 100px;
+                  transition-property: background-color;
+                  color: white;
+                  padding: 5px;
+                  
+                  
+                  
+              }
+              #box2:hover{
+                  background-color:blueviolet;
+              }
+              .container{
+                  float: left;
+                  display: flex;
+                  padding: 20px;
+                 
+                  
+              }
+              
+              
+      </style>
+</head>
+<body>
+    <h3>
+        This is transition 
+        <div class="container">
+            <div id="box1">
+                This is Transition box1 one second transition
+
+            </div><br>
+            <div id="box2">
+                This is Transition box2 two second Transition
+
+            </div>
+        </div>
+    </h3>
+</body>
+</html>
